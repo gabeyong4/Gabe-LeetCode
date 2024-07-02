@@ -22,7 +22,7 @@ class Solution:
 
         for index in range(len(nums)):
             complement = target - nums[index]
-            # compleement is another number
+            # complement is another number
             if complement in dic and complement != nums[index]:
                 index_lst.append(index)
             # complement is itself
