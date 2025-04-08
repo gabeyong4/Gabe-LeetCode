@@ -6,6 +6,7 @@ class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         s_dict = dict()
         t_dict = dict()
+        # two dictionaries where each key is one character and the value is the occurrence number of that character 
         if len(s) != len(t):
             return False
         for char in s:
